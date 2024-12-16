@@ -6,7 +6,7 @@ from fpdf import FPDF
 import Formula as calculations
 import suggestions as advice
 
-# Save Plotly charts to PNG files
+# Save Plotly charts to PNG files 
 def export_chart(fig, filename):
     output_folder = "charts"
     os.makedirs(output_folder, exist_ok=True)
@@ -111,5 +111,4 @@ def main():
     print("\nReport generated as 'carbon_emissions_report.pdf'.")
     webbrowser.open("carbon_emissions_report.pdf")
 
-if __name__ == "__main__":
-    main()
+
