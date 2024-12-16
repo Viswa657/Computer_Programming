@@ -111,4 +111,5 @@ def main():
     print("\nReport generated as 'carbon_emissions_report.pdf'.")
     webbrowser.open("carbon_emissions_report.pdf")
 
-
+if __name__ == "__main__":
+    main()
