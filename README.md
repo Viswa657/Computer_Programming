@@ -28,3 +28,19 @@ Start the program:
 
 
 python main.py
+
+
+Requirements and Dependecies 
+The project requires the following Python packages:
+
+pandas
+plotly
+fpdf
+os
+webbrowser
+
+pandas==2.0.3
+plotly==5.9.0
+fpdf==1.7.2
+
+This README provides all the essential details for someone to understand the project's functionality and how to use it effectively.
